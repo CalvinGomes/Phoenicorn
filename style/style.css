@@ -1,0 +1,65 @@
+body{
+    background: url(../img/bg.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header{
+    top:0px;
+    left:0px;
+    height: 100vh;
+}
+
+#web .row{
+    margin-bottom: 80px;
+}
+
+#web .mob{
+    z-index: 9;
+    position: absolute;
+    bottom: 30px;
+    right: 200px;
+}
+#web .lg{
+    z-index: -9;
+}
+
+#web .sweatit-sm{
+    z-index: 9;
+    position: absolute;
+    bottom: -10px!important;
+    right: 10px!important;
+}
+
+@media only screen and (max-width: 768px) {
+    #web img {
+        width: 100%;
+        text-align: center;
+    }
+
+    #web .mob{
+        right: 20px;
+    }
+
+    #web .mob img{
+        width: 50px;
+    }
+    #web h3 {
+        text-align: center;
+    }
+    #web .fenestra-sm {
+        z-index: 9;
+        position: absolute;
+        width: 85px!important;
+        right: 0px;
+        bottom: -20px;
+    }
+
+    #web .sweatit-sm {
+        width: 55px!important;
+    }
+
+    #web .web-content {
+        margin-top: 50px;
+    }
+}
